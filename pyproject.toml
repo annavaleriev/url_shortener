@@ -10,6 +10,9 @@ python = "^3.11"
 fastapi = "^0.116.1"
 uvicorn = "^0.35.0"
 httpx = "^0.28.1"
+pydantic = {extras = ["dotenv"], version = "^2.11.7"}
+python-dotenv = "^1.1.1"
+pyshorteners = "^1.0.1"
 
 
 [build-system]

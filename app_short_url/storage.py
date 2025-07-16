@@ -8,4 +8,4 @@ def save_url_to_db(short_url_id: str, origin_url: str) -> None:
 
 def get_url_from_db(short_url_id: str) -> str:
     """Функция для получения оригинальной ссылки из базы данных по короткому id"""
-    pass
+    return _url_db.get(short_url_id)
