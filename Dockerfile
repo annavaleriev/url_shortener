@@ -13,4 +13,4 @@ RUN poetry install --only=main --no-interaction --no-ansi --no-root
 
 COPY . .
 
-CMD ["uvicorn", "app_short_url.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"]
